@@ -1,0 +1,38 @@
+# libmongoc
+
+This is a prototype for a new MongoDB C library.
+
+These are the tests and examples from the libmongoc distribution 
+at https://github.com/chergert/libmongoc
+
+modified by Waitman Gobble <ns@waitman.net> 2013-07-11
+
+This is intended to be used with the FreeBSD ports of devel/libmongoc and
+devel/libbson
+
+BSD style Makefile
+
+To build tests, switch to the tests directory and run:
+
+> make
+
+To run the tests:
+
+> make run
+
+To remove the compiled binaries:
+
+> make clean
+
+There is no install.
+
+To build examples, switch to examples directory and run:
+
+> make
+
+To remove the comiled binaries:
+
+> make clean
+
+There is no install.
+
